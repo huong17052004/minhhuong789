@@ -1,0 +1,71 @@
+﻿@model SIMS_SE06205.Models.TeacherViewModel
+
+@{
+    ViewData["Title"] = "Add Teacher";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12 p-3">
+        <div class="card">
+            <div class="card-header">
+                <h5>Add Teacher</h5>
+            </div>
+            <div class="card-body">
+                @* Display validation summary *@
+                @if (ViewData.ModelState.Any(x => x.Value.Errors.Count > 0))
+                {
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                            {
+                                <li>@error.ErrorMessage</li>
+                            }
+                        </ul>
+                    </div>
+                }
+
+                <form asp-action="Add" method="post">
+                    <div class="form-group mb-3">
+                        <label asp-for="Name" class="control-label"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Birthday" class="control-label"></label>
+                        <input asp-for="Birthday" class="form-control" type="date" min="1900-01-01" max="2100-12-31" />
+                        <span asp-validation-for="Birthday" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Major" class="control-label"></label>
+                        <select asp-for="Major" asp-items="ViewBag.CourseList" class="form-control">
+                            <option value="">Select a Major</option>
+                        </select>
+                        <span asp-validation-for="Major" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Gender" class="control-label"></label>
+                        <div class="form-check">
+                            <input asp-for="Gender" value="Male" class="form-check-input" type="radio" id="genderMale" />
+                            <label class="form-check-label" for="genderMale">Male</label>
+                        </div>
+                        <div class="form-check">
+                            <input asp-for="Gender" value="Female" class="form-check-input" type="radio" id="genderFemale" />
+                            <label class="form-check-label" for="genderFemale">Female</label>
+                        </div>
+                        <span asp-validation-for="Gender" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Address" class="control-label"></label>
+                        <input asp-for="Address" class="form-control" />
+                        <span asp-validation-for="Address" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <button type="submit" class="btn btn-primary btn-sm">Add</button>
+                        <a class="btn btn-info btn-sm" href="@Url.Action("Index", "Teacher")">Back to List</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

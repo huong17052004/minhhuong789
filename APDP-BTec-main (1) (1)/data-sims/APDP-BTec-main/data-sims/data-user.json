@@ -1,0 +1,19 @@
+
+[
+  {
+    "id": 1,
+    "username": "trieunt",
+    "password": "123",
+    "email": "admin@gmail.com",
+    "phone": "098765121",
+    "role": "admin"
+  },
+  {
+    "id": 2,
+    "username": "test",
+    "password": "123",
+    "email": "test@gmail.com",
+    "phone": "098765121",
+    "role": "test"
+  }
+]

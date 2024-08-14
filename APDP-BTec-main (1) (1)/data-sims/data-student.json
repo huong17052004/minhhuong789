@@ -1,0 +1,38 @@
+[
+  {
+    "Id": "1",
+    "Code": "BH1010",
+    "NameStudent": "Hoàng",
+    "Major": "PHP",
+    "Gender": "Male",
+    "Adress": "HN",
+    "Class": "Kua"
+  },
+  {
+    "Id": "3",
+    "Code": "BH00955",
+    "NameStudent": "Nguyen Thi Kieu Oanh",
+    "Major": "PHP",
+    "Gender": "Female",
+    "Adress": "HN",
+    "Class": "jin"
+  },
+  {
+    "Id": "4",
+    "Code": "BH1006",
+    "NameStudent": "Lê Thị Lan Hương",
+    "Major": "Java Android - Android Studio",
+    "Gender": "Male",
+    "Adress": "VP",
+    "Class": "Kua"
+  },
+  {
+    "Id": "5",
+    "Code": "BH00995",
+    "NameStudent": "Trần Đức Quý",
+    "Major": "Python",
+    "Gender": "Male",
+    "Adress": "ND",
+    "Class": "jin"
+  }
+]

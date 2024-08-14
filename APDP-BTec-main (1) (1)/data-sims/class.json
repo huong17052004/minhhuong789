@@ -1,0 +1,16 @@
+[
+  {
+    "Id": 1,
+    "NameClass": "Kua",
+    "Major": "PHP",
+    "Teacher": "NTT",
+    "Slot": "1"
+  },
+  {
+    "Id": 2,
+    "NameClass": "jin",
+    "Major": "Java Android - Android Studio",
+    "Teacher": "Jane Smith",
+    "Slot": "3"
+  }
+]

@@ -1,0 +1,40 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    @model List<StudentViewModel>
+
+    <h2>Search Results</h2>
+
+    <form asp-action="Search" method="get">
+        <input type="text" name="searchTerm" placeholder="Search student..." />
+        <button type="submit">Search</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Code</th>
+                <th>Major</th>
+                <th>Gender</th>
+                <th>Address</th>
+                <th>Class</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.NameStudent</td>
+                    <td>@student.Code</td>
+                    <td>@student.Major</td>
+                    <td>@student.Gender</td>
+                    <td>@student.Adress</td>
+                    <td>@student.Class</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+

@@ -1,0 +1,115 @@
+﻿
+  @model SIMS_SE06205.Models.StudentModel
+
+@{
+    ViewData["title"] = "Student Management";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    bool statusAdd = Convert.ToBoolean(TempData["saveStatus"]);
+    bool statusDel = Convert.ToBoolean(TempData["DeleteStatus"]);
+    bool statusUpdate = Convert.ToBoolean(TempData["UpdateStatus"]);
+}
+
+<form asp-action="Search" method="get">
+    <input type="text" name="searchTerm" placeholder="Search student..." value="@ViewBag.SearchTerm" />
+    <button type="submit">Search</button>
+</form>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<div class="row">
+    <div class="col col-sm-12 col-md-12 p-3">
+        <h3>List of Students</h3>
+        <a class="btn btn-primary btn-sm my-2" href="@Url.Action("Add", "Student")">Add Student</a>
+
+        @if (TempData["saveStatus"] != null)
+        {
+            <div class="text-success my-2">@((statusAdd) ? "Added Successfully" : "Add Failed")</div>
+        }
+        @if (TempData["DeleteStatus"] != null)
+        {
+            <div class="text-success my-2">@((statusDel) ? "Deleted Successfully" : "Delete Failed")</div>
+        }
+        @if (TempData["UpdateStatus"] != null)
+        {
+            <div class="text-success my-2">@((statusUpdate) ? "Updated Successfully" : "Update Failed")</div>
+        }
+
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Code</th>
+                    <th>Name</th>
+                    <th>Major</th>
+                    <th>Gender</th>
+                    <th>Address</th>
+                    <th>Class</th>
+                    <th colspan="2" width="5%">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.StudentLists)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Code</td>
+                        <td>@item.NameStudent</td>
+                        <td>@(string.IsNullOrEmpty(item.Major) ? "Unknown" : item.Major)</td>
+                        <td>@item.Gender</td>
+                        <td>@item.Adress</td>
+                        <td>@item.Class</td>
+                        <td>
+                            <a class="btn btn-info btn-sm" href="@Url.Action("Update", "Student", new { id = item.Id })">Edit</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-danger btn-sm" href="@Url.Action("Delete", "Student", new { id = item.Id })">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        @if (ViewBag.HasSearched == true)
+        {
+            <a href="@Url.Action("Index")" class="btn btn-secondary">Back to List</a>
+        }
+
+        <div class="pagination">
+            @for (int i = 1; i <= Model.TotalPages; i++)
+            {
+                <a asp-action="Index" asp-route-page="@i" class="@(i == Model.CurrentPage ? "active" : "")">@i</a>
+            }
+</div>
+    </div>
+</div>
+<style>
+    .pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .pagination a {
+        margin: 0 5px;
+        padding: 8px 12px;
+        text-decoration: none;
+        color: #007bff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+
+    .pagination a.active {
+        background-color: #007bff;
+        color: white;
+        border-color: #007bff;
+    }
+
+    .pagination a:hover {
+        background-color: #f0f0f0;
+    }
+</style>

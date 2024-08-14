@@ -1,0 +1,85 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model SIMS_SE06205.Models.TeacherModel
+
+@{
+    ViewData["title"] = "Teacher Management";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    bool statusAdd = Convert.ToBoolean(TempData["saveStatus"]);
+    bool statusDel = Convert.ToBoolean(TempData["DeleteStatus"]);
+    bool statusUpdate = Convert.ToBoolean(TempData["UpdateStatus"]);
+    <form asp-action="Search" method="get">
+        <input type="text" name="searchTerm" placeholder="Search teacher..." value="@ViewBag.SearchTerm" />
+        <button type="submit">Search</button>
+    </form>
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+}
+
+<div class="row">
+    <div class="col col-sm-12 col-md-12 p-3">
+        <h3>List of Teachers</h3>
+        <a class="btn btn-primary btn-sm my-2" href="@Url.Action("Add", "Teacher")">Add Teacher</a>
+
+        @if (TempData["saveStatus"] != null)
+        {
+            <div class="my-2 @(statusAdd ? "text-success" : "text-danger")">
+                @(statusAdd ? "Added Successfully" : "Add Failed")
+            </div>
+        }
+        @if (TempData["DeleteStatus"] != null)
+        {
+            <div class="my-2 @(statusDel ? "text-success" : "text-danger")">
+                @(statusDel ? "Deleted Successfully" : "Delete Failed")
+            </div>
+        }
+        @if (TempData["UpdateStatus"] != null)
+        {
+            <div class="my-2 @(statusUpdate ? "text-success" : "text-danger")">
+                @(statusUpdate ? "Updated Successfully" : "Update Failed")
+            </div>
+        }
+
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Birthday</th>
+                    <th>Major</th>
+                    <th>Gender</th>
+                    <th>Address</th>
+                    <th colspan="2" width="5%">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.TeacherLists)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Name</td>
+                        <td>@item.Birthday.ToString("MM/dd/yyyy")</td>
+                        <td>@(string.IsNullOrEmpty(item.Major) ? "Unknown" : item.Major)</td>
+                        <td>@item.Gender</td>
+                        <td>@item.Address</td>
+                        <td>
+                            <a class="btn btn-info btn-sm" href="@Url.Action("Update", "Teacher", new { id = item.Id })">Edit</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-danger btn-sm" href="@Url.Action("Delete", "Teacher", new { id = item.Id })">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        @if (ViewBag.HasSearched == true)
+        {
+            <a href="@Url.Action("Index")" class="btn btn-secondary">Back to List</a>
+        }
+    </div>
+</div>

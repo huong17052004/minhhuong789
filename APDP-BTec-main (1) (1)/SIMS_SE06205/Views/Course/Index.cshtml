@@ -1,0 +1,97 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model SIMS_SE06205.Models.CourseModel;
+
+@{
+    ViewData["title"] = "Course managment";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    bool statusAdd = Convert.ToBoolean(TempData["saveStatus"]);
+    bool statusDel = Convert.ToBoolean(TempData["DeleteStatus"]);
+    bool statusUpdate = Convert.ToBoolean(TempData["UpdateStatus"]);
+    <form asp-action="Search" method="get">
+        <input type="text" name="searchTerm" placeholder="Search courses..." value="@ViewBag.SearchTerm" />
+        <button type="submit">Search</button>
+    </form>
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+
+    
+}
+<div class="row">
+    <div class="col col-sm-12 col-md-12 p-3">
+        <h3> List courses</h3>
+        <a class="btn btn-primary btn-sm my-2" href="@Url.Action("Add","Course")"> Add Course </a>
+
+        @if (TempData["saveStatus"] != null)
+        {
+            @if (statusAdd)
+            {
+                <div class="text-success my-2"> Add Successfully</div>
+            }
+            else
+            {
+                <div class="text-danger my-2"> Add Failure</div>
+            }
+        }
+        @if (TempData["DeleteStatus"] != null)
+        {
+            @if (statusDel)
+            {
+                <div class="text-success my-2"> Deleted Successfully</div>
+            }
+            else
+            {
+                <div class="text-danger my-2"> Deleted Failure</div>
+            }
+        }
+        @if (TempData["UpdateStatus"] != null)
+        {
+            @if (statusUpdate)
+            {
+                <div class="text-success my-2"> Updated Successfully</div>
+            }
+            else
+            {
+                <div class="text-danger my-2"> Updated Failure</div>
+            }
+        }
+
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>NAME</th>
+                    <th>DESCRIPTION</th>
+                    <th colspan="2" width="5%">ACTION</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.CourseLists)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.NameCourse</td>
+                        <td>@item.Description</td>
+                        <td>
+                            <a class="btn btn-info btn-sm" href="@Url.Action("Update","Course", new { id = @item.Id })">Edit</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-danger btn-sm" href="@Url.Action("Delete","Course", new { id = @item.Id })">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        @if (ViewBag.HasSearched == true)
+        {
+            <a href="@Url.Action("Index")" class="btn btn-secondary">Back to List</a>
+        }
+    </div>
+</div>

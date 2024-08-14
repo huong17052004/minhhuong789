@@ -1,0 +1,58 @@
+[
+  {
+    "Id": "1",
+    "UserName": "trieunt",
+    "Password": "123",
+    "Email": "admin@gmail.com",
+    "PhoneNumber": null
+  },
+  {
+    "Id": "2",
+    "UserName": "test",
+    "Password": "123",
+    "Email": "test@gmail.com",
+    "PhoneNumber": null
+  },
+  {
+    "Id": "3",
+    "UserName": "Oanh",
+    "Password": "123",
+    "Email": "oanhntkbh00955@fpt.edu.vn",
+    "PhoneNumber": "0399822795"
+  },
+  {
+    "Id": "4",
+    "UserName": "A",
+    "Password": "111",
+    "Email": "nguyenkieuoanh390@gmail.com",
+    "PhoneNumber": "13345"
+  },
+  {
+    "Id": "5",
+    "UserName": "siu",
+    "Password": "123",
+    "Email": "quy@gmail.com",
+    "PhoneNumber": "0968463276"
+  },
+  {
+    "Id": "6",
+    "UserName": "datt",
+    "Password": "123",
+    "Email": "datt@gmail.com",
+    "PhoneNumber": "0989876567"
+  },
+  {
+    "Id": "7",
+    "UserName": "huongoccho",
+    "Password": "123",
+    "Email": "huongxinhgai@gmail.com",
+    "PhoneNumber": "0873561235"
+  },
+  {
+    "Id": "8",
+    "UserName": "dat",
+    "Password": "1",
+    "Email": "dat@gmail.com",
+    "PhoneNumber": "1234567890"
+  }
+]

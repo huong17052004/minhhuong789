@@ -1,0 +1,247 @@
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\bin\Debug\net8.0\appsettings.Development.json
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\bin\Debug\net8.0\appsettings.json
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.staticwebassets.runtime.json
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.exe
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.deps.json
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.runtimeconfig.json
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.dll
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.pdb
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.AssemblyInfoInputs.cache
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.AssemblyInfo.cs
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.csproj.CoreCompileInputs.cache
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.MvcApplicationPartsAssemblyInfo.cache
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.RazorAssemblyInfo.cache
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.RazorAssemblyInfo.cs
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\obj\Debug\net8.0\staticwebassets.build.json
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\obj\Debug\net8.0\staticwebassets.development.json
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.SIMS_SE06205.Microsoft.AspNetCore.StaticWebAssets.props
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.build.SIMS_SE06205.props
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SIMS_SE06205.props
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SIMS_SE06205.props
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\obj\Debug\net8.0\staticwebassets.pack.json
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\obj\Debug\net8.0\scopedcss\bundle\SIMS_SE06205.styles.css
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\obj\Debug\net8.0\scopedcss\projectbundle\SIMS_SE06205.bundle.scp.css
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.dll
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\obj\Debug\net8.0\refint\SIMS_SE06205.dll
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.pdb
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.genruntimeconfig.cache
+C:\CSharp\SIMS_SE06205\SIMS_SE06205\obj\Debug\net8.0\ref\SIMS_SE06205.dll
+C:\CSharp\SIMS\SIMS_SE06205\bin\Debug\net8.0\appsettings.Development.json
+C:\CSharp\SIMS\SIMS_SE06205\bin\Debug\net8.0\appsettings.json
+C:\CSharp\SIMS\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.staticwebassets.runtime.json
+C:\CSharp\SIMS\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.exe
+C:\CSharp\SIMS\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.deps.json
+C:\CSharp\SIMS\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.runtimeconfig.json
+C:\CSharp\SIMS\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.dll
+C:\CSharp\SIMS\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.pdb
+C:\CSharp\SIMS\SIMS_SE06205\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\CSharp\SIMS\SIMS_SE06205\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\CSharp\SIMS\SIMS_SE06205\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\CSharp\SIMS\SIMS_SE06205\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.csproj.AssemblyReference.cache
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.AssemblyInfoInputs.cache
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.AssemblyInfo.cs
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.csproj.CoreCompileInputs.cache
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.MvcApplicationPartsAssemblyInfo.cache
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.RazorAssemblyInfo.cache
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.RazorAssemblyInfo.cs
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\staticwebassets.build.json
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\staticwebassets.development.json
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.SIMS_SE06205.Microsoft.AspNetCore.StaticWebAssets.props
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.build.SIMS_SE06205.props
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SIMS_SE06205.props
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SIMS_SE06205.props
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\staticwebassets.pack.json
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\scopedcss\bundle\SIMS_SE06205.styles.css
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\scopedcss\projectbundle\SIMS_SE06205.bundle.scp.css
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE0.9724E631.Up2Date
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.dll
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\refint\SIMS_SE06205.dll
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.pdb
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.genruntimeconfig.cache
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\ref\SIMS_SE06205.dll
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.sourcelink.json
+D:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\appsettings.Development.json
+D:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\appsettings.json
+D:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.staticwebassets.runtime.json
+D:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.exe
+D:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.deps.json
+D:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.runtimeconfig.json
+D:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.dll
+D:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.pdb
+D:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.csproj.AssemblyReference.cache
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.GeneratedMSBuildEditorConfig.editorconfig
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.AssemblyInfoInputs.cache
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.AssemblyInfo.cs
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.csproj.CoreCompileInputs.cache
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.MvcApplicationPartsAssemblyInfo.cache
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.RazorAssemblyInfo.cache
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.RazorAssemblyInfo.cs
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\staticwebassets.build.json
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\staticwebassets.development.json
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.SIMS_SE06205.Microsoft.AspNetCore.StaticWebAssets.props
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.build.SIMS_SE06205.props
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SIMS_SE06205.props
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SIMS_SE06205.props
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\staticwebassets.pack.json
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\scopedcss\bundle\SIMS_SE06205.styles.css
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\scopedcss\projectbundle\SIMS_SE06205.bundle.scp.css
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE0.9724E631.Up2Date
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.dll
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\refint\SIMS_SE06205.dll
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.pdb
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.genruntimeconfig.cache
+D:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\ref\SIMS_SE06205.dll
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\bin\Debug\net8.0\appsettings.Development.json
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\bin\Debug\net8.0\appsettings.json
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.staticwebassets.runtime.json
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.exe
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.deps.json
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.runtimeconfig.json
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.dll
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.pdb
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.csproj.AssemblyReference.cache
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.GeneratedMSBuildEditorConfig.editorconfig
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.AssemblyInfoInputs.cache
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.AssemblyInfo.cs
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.csproj.CoreCompileInputs.cache
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.MvcApplicationPartsAssemblyInfo.cache
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.RazorAssemblyInfo.cache
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.RazorAssemblyInfo.cs
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\staticwebassets.build.json
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\staticwebassets.development.json
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.SIMS_SE06205.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.build.SIMS_SE06205.props
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SIMS_SE06205.props
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SIMS_SE06205.props
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\scopedcss\bundle\SIMS_SE06205.styles.css
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\scopedcss\projectbundle\SIMS_SE06205.bundle.scp.css
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE0.9724E631.Up2Date
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.dll
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\refint\SIMS_SE06205.dll
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.pdb
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.genruntimeconfig.cache
+D:\Course Applied Programming\APDP-BTec-main-2\SIMS_SE06205\obj\Debug\net8.0\ref\SIMS_SE06205.dll
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.csproj.AssemblyReference.cache
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.GeneratedMSBuildEditorConfig.editorconfig
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.AssemblyInfoInputs.cache
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.AssemblyInfo.cs
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.csproj.CoreCompileInputs.cache
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.MvcApplicationPartsAssemblyInfo.cache
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.RazorAssemblyInfo.cache
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.RazorAssemblyInfo.cs
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.dll
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\refint\SIMS_SE06205.dll
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.pdb
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\bin\Debug\net8.0\appsettings.Development.json
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\bin\Debug\net8.0\appsettings.json
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.staticwebassets.runtime.json
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.exe
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.deps.json
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.runtimeconfig.json
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.dll
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.pdb
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\staticwebassets.build.json
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\staticwebassets.development.json
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.SIMS_SE06205.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.build.SIMS_SE06205.props
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SIMS_SE06205.props
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SIMS_SE06205.props
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\scopedcss\bundle\SIMS_SE06205.styles.css
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\scopedcss\projectbundle\SIMS_SE06205.bundle.scp.css
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE0.9724E631.Up2Date
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.genruntimeconfig.cache
+D:\Course Applied Programming\APDP-BTec-main-2 (1)\SIMS_SE06205\obj\Debug\net8.0\ref\SIMS_SE06205.dll
+E:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\appsettings.Development.json
+E:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\appsettings.json
+E:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.staticwebassets.runtime.json
+E:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.exe
+E:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.deps.json
+E:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.runtimeconfig.json
+E:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.dll
+E:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.pdb
+E:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\APDP-BTec-main\SIMS_SE06205\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.csproj.AssemblyReference.cache
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.GeneratedMSBuildEditorConfig.editorconfig
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.AssemblyInfoInputs.cache
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.AssemblyInfo.cs
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.csproj.CoreCompileInputs.cache
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.MvcApplicationPartsAssemblyInfo.cache
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.RazorAssemblyInfo.cache
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.RazorAssemblyInfo.cs
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\staticwebassets.build.json
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\staticwebassets.development.json
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.SIMS_SE06205.Microsoft.AspNetCore.StaticWebAssets.props
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.build.SIMS_SE06205.props
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SIMS_SE06205.props
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SIMS_SE06205.props
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\staticwebassets.pack.json
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\scopedcss\bundle\SIMS_SE06205.styles.css
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\scopedcss\projectbundle\SIMS_SE06205.bundle.scp.css
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE0.9724E631.Up2Date
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.dll
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\refint\SIMS_SE06205.dll
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.pdb
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.genruntimeconfig.cache
+E:\APDP-BTec-main\SIMS_SE06205\obj\Debug\net8.0\ref\SIMS_SE06205.dll
+E:\APDP-BTec-main (1)\SIMS_SE06205\bin\Debug\net8.0\appsettings.Development.json
+E:\APDP-BTec-main (1)\SIMS_SE06205\bin\Debug\net8.0\appsettings.json
+E:\APDP-BTec-main (1)\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.staticwebassets.runtime.json
+E:\APDP-BTec-main (1)\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.exe
+E:\APDP-BTec-main (1)\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.deps.json
+E:\APDP-BTec-main (1)\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.runtimeconfig.json
+E:\APDP-BTec-main (1)\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.dll
+E:\APDP-BTec-main (1)\SIMS_SE06205\bin\Debug\net8.0\SIMS_SE06205.pdb
+E:\APDP-BTec-main (1)\SIMS_SE06205\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\APDP-BTec-main (1)\SIMS_SE06205\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\APDP-BTec-main (1)\SIMS_SE06205\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\APDP-BTec-main (1)\SIMS_SE06205\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.csproj.AssemblyReference.cache
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.GeneratedMSBuildEditorConfig.editorconfig
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.AssemblyInfoInputs.cache
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.AssemblyInfo.cs
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.csproj.CoreCompileInputs.cache
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.MvcApplicationPartsAssemblyInfo.cache
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.RazorAssemblyInfo.cache
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.RazorAssemblyInfo.cs
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\staticwebassets.build.json
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\staticwebassets.development.json
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.SIMS_SE06205.Microsoft.AspNetCore.StaticWebAssets.props
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.build.SIMS_SE06205.props
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SIMS_SE06205.props
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SIMS_SE06205.props
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\staticwebassets.pack.json
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\scopedcss\bundle\SIMS_SE06205.styles.css
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\scopedcss\projectbundle\SIMS_SE06205.bundle.scp.css
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE0.9724E631.Up2Date
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.dll
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\refint\SIMS_SE06205.dll
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.pdb
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.genruntimeconfig.cache
+E:\APDP-BTec-main (1)\SIMS_SE06205\obj\Debug\net8.0\ref\SIMS_SE06205.dll

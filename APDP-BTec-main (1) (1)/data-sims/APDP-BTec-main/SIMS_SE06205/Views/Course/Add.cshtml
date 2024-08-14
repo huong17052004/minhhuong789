@@ -1,0 +1,42 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model SIMS_SE06205.Models.CourseViewModel
+@{
+    ViewData["title"] = "Course Add";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<div class="row">
+    <div class="col col-sm-12 col-md-12 p-3">
+        <div class="card">
+            <div class="card-header">
+                <h5> Add New Course</h5>
+            </div>
+            <div class="card-body">
+                <form enctype="multipart/form-data" asp-action="Add" method="post">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group mb-3">
+                                <label asp-for="NameCourse" class="control-label"></label>
+                                <input asp-for="NameCourse" class="form-control" />
+                                <span asp-validation-for="NameCourse" class="text-danger"></span>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label asp-for="Description" class="control-label"></label>
+                                <textarea asp-for="Description" class="form-control" rows="5"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <button class="btn btn-primary btn-sm" type="submit">Save</button>
+                                <a class="btn btn-info btn-sm" href="@Url.Action("Index","Course")">Back to List</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

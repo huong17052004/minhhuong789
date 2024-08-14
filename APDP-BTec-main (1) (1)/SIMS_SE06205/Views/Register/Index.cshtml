@@ -1,0 +1,55 @@
+﻿@model SIMS_SE06205.Models.RegisterViewModel
+
+
+@{
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+    var registerStatus = TempData["registerStatus"];
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-5">
+            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                <div class="card-header">
+                    <h3 class="text-danger font-weight-light my-4">Register</h3>
+                    @if (registerStatus != null)
+                    {
+                        <div class="text-danger text-center my-3">@registerStatus</div>
+                    }
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-action="Index">
+                        <div class="form-floating mb-3">
+                            <input class="form-control" asp-for="UserName" type="text" placeholder="Enter username" />
+                            <label asp-for="UserName"></label>
+                            <span asp-validation-for="UserName"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" asp-for="Password" type="password" placeholder="Enter password" />
+                            <label asp-for="Password"></label>
+                            <span asp-validation-for="Password"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" asp-for="Email" type="email" placeholder="Enter email" />
+                            <label asp-for="Email"></label>
+                            <span asp-validation-for="Email"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" asp-for="PhoneNumber" type="text" placeholder="Enter phone number" />
+                            <label asp-for="PhoneNumber"></label>
+                            <span asp-validation-for="PhoneNumber"></span>
+                        </div>
+                        @*  <div class="form-floating mb-3">
+                        <input class="form-control" asp-for="Role" type="text" placeholder="Enter role" />
+                        <label asp-for="Role"></label>
+                        <span asp-validation-for="Role"></span>
+                        </div> *@
+                        <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
+                            <button class="btn btn-primary" type="submit">Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

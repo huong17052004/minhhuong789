@@ -1,0 +1,63 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model SIMS_SE06205.Models.ClassViewModel
+
+@{
+    ViewData["title"] = "Update Class";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col col-sm-12 col-md-12 p-3">
+        <div class="card">
+            <div class="card-header">
+                <h5>Update Class</h5>
+            </div>
+            <div class="card-body">
+                <form enctype="multipart/form-data" asp-action="Update" method="post">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group mb-3">
+                                <label asp-for="NameClass" class="control-label">Name</label>
+                                <input asp-for="NameClass" class="form-control" />
+                                <span asp-validation-for="NameClass" class="text-danger"></span>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label asp-for="Major" class="control-label">Major</label>
+                                <select asp-for="Major" class="form-control" asp-items="@(new SelectList(ViewBag.MajorList, "Value", "Text"))">
+                                    <option value="">-- Select Major --</option>
+                                </select>
+                                <span asp-validation-for="Major" class="text-danger"></span>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label asp-for="Teacher" class="control-label">Teacher</label>
+                                <select asp-for="Teacher" class="form-control" asp-items="@(new SelectList(ViewBag.TeacherList, "Value", "Text"))">
+                                    <option value="">-- Select Teacher --</option>
+                                </select>
+                                <span asp-validation-for="Teacher" class="text-danger"></span>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label asp-for="Slot" class="control-label">Slot</label>
+                                <select asp-for="Slot" class="form-control" asp-items="@(new SelectList(ViewBag.SlotList, "Value", "Text"))">
+                                    <option value="">-- Select Slot --</option>
+                                </select>
+                                <span asp-validation-for="Slot" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <button class="btn btn-primary btn-sm" type="submit">Update</button>
+                                <a class="btn btn-info btn-sm" href="@Url.Action("Index", "Class")">Back to List</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

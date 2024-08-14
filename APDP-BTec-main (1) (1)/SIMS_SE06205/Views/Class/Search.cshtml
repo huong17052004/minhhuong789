@@ -1,0 +1,45 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    @model List<ClassViewModel>
+
+
+    <form asp-action="Search" method="get">
+        <input type="text" name="searchTerm" placeholder="Tìm kiếm lớp..." />
+        <button type="submit">Tìm kiếm</button>
+    </form>
+
+    @if (ViewData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @ViewData["ErrorMessage"]
+        </div>
+    }
+    else
+    {
+        <table>
+            <thead>
+                <tr>
+                    <th>NameClass</th>
+                    <th>Major</th>
+                    <th>Teacher</th>
+                    <th>Slot</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var classs in Model)
+                {
+                    <tr>
+                        <td>@classs.NameClass</td>
+                        <td>@classs.Major</td>
+                        <td>@classs.Teacher</td>
+                        <td>@classs.Slot</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+    
+}

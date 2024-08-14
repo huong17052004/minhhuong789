@@ -1,0 +1,57 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model SIMS_SE06205.Models.ClassViewModel
+
+@{
+    ViewData["Title"] = "Add Class";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12 p-3">
+        <div class="card">
+            <div class="card-header">
+                <h5>Add Class</h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="Add" method="post">
+                    <div class="form-group mb-3">
+                        <label asp-for="NameClass" class="control-label"></label>
+                        <input asp-for="NameClass" class="form-control" />
+                        <span asp-validation-for="NameClass" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Major" class="control-label"></label>
+                        <select asp-for="Major" asp-items="ViewBag.MajorList" class="form-control">
+                            <option value="">Select a Major</option>
+                        </select>
+                        <span asp-validation-for="Major" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Teacher" class="control-label"></label>
+                        <select asp-for="Teacher" asp-items="ViewBag.TeacherList" class="form-control">
+                            <option value="">Select a Teacher</option>
+                        </select>
+                        <span asp-validation-for="Teacher" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Slot" class="control-label"></label>
+                        <select asp-for="Slot" class="form-control">
+                            <option value="">Select a Slot</option>
+                            @for (int i = 1; i <= 6; i++)
+                            {
+                                <option value="@i">@i</option>
+                            }
+                        </select>
+                        <span asp-validation-for="Slot" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <button type="submit" class="btn btn-primary btn-sm">Add</button>
+                        <a class="btn btn-info btn-sm" href="@Url.Action("Index", "Class")">Back to List</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

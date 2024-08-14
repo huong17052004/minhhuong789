@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SIMS_SE06205.props" />
+</Project>
